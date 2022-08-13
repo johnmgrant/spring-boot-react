@@ -1,0 +1,82 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"window.zoomLevel": -1,
+		"workbench.colorTheme": "Monokai",
+		"workbench.iconTheme": "vscode-icons",
+		"workbench.editor.enablePreview": true,
+		"workbench.editor.enablePreviewFromQuickOpen": false,
+		"workbench.activityBar.visible": true,
+		"workbench.sideBar.location": "left",
+		"workbench.statusBar.visible": true,
+		"explorer.confirmDelete": false,
+		"explorer.confirmDragAndDrop": true,
+		"explorer.openEditors.visible": 0,
+		"emmet.showSuggestionsAsSnippets": true,
+		"editor.snippetSuggestions": "top",
+		"editor.minimap.enabled": false,
+		"editor.emptySelectionClipboard": false,
+		"editor.suggestSelection": "recentlyUsed",
+		"editor.letterSpacing": 0.5,
+		"editor.lineHeight": 24,
+		"editor.fontSize": 14,
+		"editor.cursorBlinking": "smooth",
+		"editor.fontLigatures": false,
+		"editor.formatOnType": false,
+		"editor.formatOnPaste": false,
+		"editor.autoIndent": "full",
+		"editor.cursorStyle": "line",
+		"editor.multiCursorModifier": "ctrlCmd",
+		"editor.quickSuggestions": {
+			"comments": true
+		},
+		"editor.rulers": [
+			120
+		],
+		"editor.gotoLocation.multipleDefinitions": "goto",
+		"explorer.autoReveal": true,
+		"search.collapseResults": "alwaysCollapse",
+		"search.showLineNumbers": true,
+		"outline.problems.enabled": true,
+		"extensions.ignoreRecommendations": false,
+		"gitlens.views.branches.files.compact": false,
+		"gitlens.views.repositories.files.compact": false,
+		"search.exclude": {
+			"**/.editorconfig": true,
+			"**/node_modules/**": true,
+			"**/bower_components": true,
+			"**/.git": true,
+			"**/storage": true,
+			"**/tests/*": false,
+			"_ide_helper.php": true,
+			"_ide_helper_models.php": true,
+			"package-lock.json": true,
+			"**/build": true,
+			".metadata/**": true
+		},
+		"files.eol": "\n",
+		"files.insertFinalNewline": true,
+		"files.trimTrailingWhitespace": true,
+		"files.exclude": {
+			".editorconfig": false,
+			"*.log": false,
+			"**/node_modules/**": true,
+			"artisan": true,
+			".idea": true,
+			"storage": true,
+			"tests": true,
+			"**/.git": false,
+			"__pycache__": true,
+			"**/storage": true,
+			"**/tests/*": false,
+			"**/composer.lock": true,
+			"**/package-lock.json": true,
+			"**/build": true,
+			".metadata/**": true
+		},
+	}
+}
