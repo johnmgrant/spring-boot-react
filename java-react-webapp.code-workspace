@@ -1,8 +1,17 @@
 {
 	"folders": [
 		{
+			"name": "Root",
 			"path": "."
-		}
+		},
+		{
+			"name": "Sprint Boot Backend",
+			"path": "./springboot-backend-application"
+		},
+		{
+			"name": "React Frontend",
+			"path": "./springboot-frontend-application"
+		},
 	],
 	"settings": {
 		"window.zoomLevel": -1,

@@ -1,0 +1,10 @@
+{
+    "search.exclude": {
+        "springboot-backend-application": true,
+        "springboot-frontend-application": true,
+    },
+    "files.exclude": {
+        "springboot-backend-application": true,
+        "springboot-frontend-application": true,
+    },
+}
