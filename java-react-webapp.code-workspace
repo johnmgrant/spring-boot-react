@@ -73,7 +73,7 @@
 		"files.exclude": {
 			".editorconfig": false,
 			"*.log": false,
-			"**/node_modules/**": true,
+			"**/node_modules/**": false,
 			"artisan": true,
 			".idea": true,
 			"storage": true,
@@ -87,5 +87,11 @@
 			"**/build": true,
 			".metadata/**": true
 		},
+		"html-css-class-completion.enableEmmetSupport": true,
+		"html-css-class-completion.JavaScriptLanguages": [
+			"javascript",
+			"javascriptreact",
+			"typescriptreact"
+		]
 	}
 }
