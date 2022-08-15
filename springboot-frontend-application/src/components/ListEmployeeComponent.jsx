@@ -1,13 +1,16 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import EmployeeService from '../services/EmployeeService';
 
 class ListEmployeeComponent extends Component {
     constructor(props) {
-        super(props)
+        super(props);
 
         this.state = {
             employees: []
         }
+
+        this.addEmployee = this.addEmployee.bind(this);
     }
 
     componentDidMount() {
@@ -16,10 +19,21 @@ class ListEmployeeComponent extends Component {
         });
     }
 
+    addEmployee() {
+        const { onClick } = this.props;
+        onClick('/add-employee');
+    }
+
     render() {
         return (
             <div>
                 <h2 className='text-center'>Employees List</h2>
+                <div className='row'>
+                    <button className='btn btn-primary' onClick={this.addEmployee}>
+                        Add Employee
+                    </button>
+                </div>
+                <br></br>
                 <div className='row'>
                     <table className='table table-striped table-boarded'>
                         <thead>
@@ -49,5 +63,9 @@ class ListEmployeeComponent extends Component {
         );
     }
 }
+
+ListEmployeeComponent.propTypes = {
+    onClick: PropTypes.func.isRequired
+};
 
 export default ListEmployeeComponent;

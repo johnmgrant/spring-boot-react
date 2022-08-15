@@ -46,3 +46,7 @@
   text-align: center;
   color: white;
 }
+
+.row > button {
+  width: unset;
+}
